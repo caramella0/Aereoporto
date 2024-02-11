@@ -18,9 +18,9 @@ public class ConnessioneServer {
 			MysqlDataSource dataSource = new MysqlDataSource();
 			dataSource.setServerName("127.0.0.1");
 			dataSource.setPortNumber(3306);
-			dataSource.setPassword("cirfeta1");
+			dataSource.setPassword("alessio");
 			dataSource.setUser("root");
-			dataSource.setDatabaseName("RaccoltaMusicale");
+			dataSource.setDatabaseName("aereoporto");
 			
 			connessione = dataSource.getConnection();
 			
